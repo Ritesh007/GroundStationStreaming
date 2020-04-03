@@ -1,0 +1,10 @@
+{
+"LambdaFunctionConfigurations": [
+    {
+      "Id": "tif_images",
+      "LambdaFunctionArn": "arn:aws:lambda:REGION:ACCOUNT_ID:function:LAMBDA_FUNCTION",
+      "Events": [ "s3:ObjectCreated:*" ]
+      
+    }
+  ]
+}
